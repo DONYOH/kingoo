@@ -29,6 +29,9 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
+                <hr>
+                 Scanner ce code pour telecharger l'application
+                <img src="{{asset('site/assets/images/codeqr.png')}}" class="img-fluid" style="height: 100px">
             </div>
             <div class="col-lg-3 col-md-6">
                 <div class="footer-navigation">

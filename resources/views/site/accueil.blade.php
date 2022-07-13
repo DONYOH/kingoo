@@ -4,11 +4,11 @@
 @endsection
 @section('content')
 
-    <section class="appie-hero-area">
-        <div class="container">
+    <section class="appie-hero-area" style="height: 700px">
+        <div class="container" style="margin-top: -12%">
             <div class="row align-items-center">
                 <div class="col-lg-5">
-                    <div class="appie-hero-content">
+                    <div class="appie-hero-content" style="margin-top: -10%">
                         <span style="font-size: 20px">Bienvenu sur</span>
                         <h1 class="appie-title">KINGOO</h1>
                         <p>La plateforme qui vous permet de voyager, partager et discuter.</p>
@@ -48,12 +48,12 @@
                         <h3 class="appie-title text-center">Qui sommes - nous ?</h3>
                         <p><b>Kingoo</b> est une plateforme électronique basée à Lomé (Togo) ayant pour ambitionne d’apporter un plus à l’évolution de
                             la technologie appliquée dans les secteurs d’activités économiques.
-                            <br>Lancée en 2022, elle a pour objectifs d'amélioré le transport, promouvoir le busness avec le marketing et de mêttre
-                            en relation plusieurs dans le monde pour un max de partage sur divers plans.
+                            <br>Lancée en 2022, elle a pour objectifs d'amélioré le service du transport, promouvoir marketing digital et de mêttre
+                            en relation plusieurs personnes dans le monde pour un max de partage sur divers plans.
                             <br>
                             De nos jours, il eu égard à la forte croissance urbaine et l’accrus des activités économiques,
                             il est nécessaire de créer un écosystème qui répond aux enjeux du
-                            siècle présent par l'intégration TIC.
+                            siècle présent par le TIC.
                             <br>
                             Nous vous proposons donc des services tels que:
                         </p>
@@ -111,15 +111,119 @@
                 </div>
             </div>
         </div>
-    </section>
 
+    </section>
+    <br>
+    <section class="appie-pricing-2-area pb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="appie-section-title text-center">
+                        <h3 class="appie-title">Voulez-vous devenir </h3>
+                        <div class="appie-pricing-tab-btn">
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Conducteur ?</a>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Client ?</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="pricing-one__single pricing-one__single_2 wow animated fadeInLeft">
+                                        <div class="pricig-heading">
+                                           <img src="{{asset('site/assets/images/m12.jpg')}}" class="img-fluid" style="height: 300px">
+                                        </div>
+                                        <div class="pricig-body">
+                                            <img src="{{asset('site/assets/images/m1.png')}}" class="img-fluid" style="height: 275px">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="pricing-one__single pricing-one__single_2 item-2 wow animated fadeInRight">
+                                        <div class="pricig-heading">
+                                            <h6>Pour être un conducteur</h6>
+                                            <p>Vous avez une moto, une trycicle ou une voiture en bonne état capable de repondre
+                                                a tout les services de courses à la demande par nos clients.
+                                            </p>
+                                        </div>
+                                        <div class="pricig-body">
+                                            <h6>Comment postuler pour conduire avec Kingoo ?  </h6><br>
+                                            <ul>
+                                                <li><i class="fal fa-check"></i> Télécharger l'application sur playstore/AppStore.</li>
+                                                <li><i class="fal fa-check"></i> Faite votre pré-inscription sur l'application ou en cliquant ici</li>
+                                                <li><i class="fal fa-check"></i> Attendez un rappel pour le contrôle et l'activation de votre compte</li>
+                                                <li><i class="fal fa-check"></i> Lisez votre contrat que vous allez signer a volonté</li>
+                                            </ul>
+                                        </div>
+                                        <hr>
+                                        <div class="pricig-body">
+                                            <h6>Avantage de conduire avec Kingoo ?  </h6><br>
+                                            <ul>
+                                                <li><i class="fal fa-check"></i> Rentabiliser facilement avec vos clients.</li>
+                                                <li><i class="fal fa-check"></i> Fidélisez avec Kingoo</li>
+                                                <li><i class="fal fa-check"></i> Les paiements sont négociables avec votre propre client</li>
+                                                <li><i class="fal fa-check"></i> Obtenez des bonus sur des courses</li>
+                                            </ul>
+                                            <div class="pricing-btn mt-35">
+                                                <a class="main-btn" href="#">M'inscrire maintenant</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="pricing-one__single pricing-one__single_2 animated fadeInLeft">
+                                       <img src="{{asset('site/assets/images/com.jpg')}}" class="img-fluid">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="pricing-one__single pricing-one__single_2 item-2 animated fadeInRight">
+                                        <div class="pricig-body">
+                                            <h6>Pour commander une courses</h6><hr>
+                                            <ul>
+                                                <li><i class="fal fa-check"></i> Télécharger l'application depuis playstore</li>
+                                                <li><i class="fal fa-check"></i> Ou connectez-vous à votre compte web</li>
+                                                <li><i class="fal fa-check"></i> Paramétrer votre courses pour avoir le montant avant la commande</li>
+                                                <li><i class="fal fa-check"></i> Payer en espèce ou par mobile money</li>
+                                            </ul>
+                                            <div class="pricing-btn mt-35">
+                                                <a class="main-btn" href="#">Commander ma course maintenant</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      <hr>
     <section class="appie-download-3-area pt-90 pb-90" id="download">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Kingoo application</h3>
-                        <p>Téléchargement libre et gratuit disponible sur</p>
+                        <h3 class="appie-title">Kingoo application mobile</h3>
+                        <p>Téléchargement libre et gratuit disponible pour</p>
                     </div>
                 </div>
             </div>
@@ -200,74 +304,12 @@
                 </div>
             </div>
         </div>
-        <div class="traffic-thumb ">
+        <div class="traffic-thumb " style="margin-top: -5%">
             <img class="wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="200ms" src="site/assets/images/traffic-thumb.png" alt="">
         </div>
     </section>
 
-
-    <section class="appie-testimonial-area pt-100 pb-160" id="testimonial">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="appie-testimonial-slider">
-                        <div class="appie-testimonial-item text-center">
-                            <div class="author-info">
-                                <img src="site/assets/images/testimonial-user.png" alt="">
-                                <h5 class="title">Jason Response</h5>
-                            </div>
-                            <div class="text">
-                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="appie-testimonial-item text-center">
-                            <div class="author-info">
-                                <img src="site/assets/images/testimonial-user.png" alt="">
-                                <h5 class="title">Jason Response</h5>
-                                <span>April 14, 2022</span>
-                            </div>
-                            <div class="text">
-                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="appie-testimonial-item text-center">
-                            <div class="author-info">
-                                <img src="site/assets/images/testimonial-user.png" alt="">
-                                <h5 class="title">Jason Response</h5>
-                            </div>
-                            <div class="text">
-                                <p>Why I say old chap that is spiffing lurgy Oxford cracking goal bleeder, bog-standard Harry brilliant mush a blinding shot starkers.</p>
-                                <ul>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                    <li><i class="fas fa-star"></i></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<br><br><br>
-
-    <section class="appie-project-area pb-100">
+    <section class="appie-project-area pb-100" style="margin-top: -8%">
         <div class="container">
             <div class="row">
                 <div class="appie-signup-box">
@@ -296,5 +338,5 @@
             </div>
         </div>
     </section>
-
+<br><br><br>
 @endsection
