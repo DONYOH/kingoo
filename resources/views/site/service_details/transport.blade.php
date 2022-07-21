@@ -44,24 +44,26 @@
                             <div class="shop-product-details-content">
                                 <h2 class="title">Transport</h2>
                                 <p>
-                                    Kingoo grâce au service de transport vous permet de faire vos courses en toute liberté et sécurité.
-                                    Estimé votre la distance de vos courses pour savoir à l'avance le prix pour commander un conducteur.
-                                    Le système de localisation retrâce votre conducteur pour ainsi commencer vos courses.
-                                    Vous disposez de plusieurs type de conducteurs à savoir: nos chauffeurs professionnels, les taxi-man,
-                                    les conducteurs à deux ou trois roues.
-                                <br>
+                                    Notre service de transport grâce à l'innovation technologique permet au client et au conducteur
+                                    d'estimé le cout sur chaque course.
+                                    Le client en étant connecté à l'application mobile peut commander une course en étant
+                                    prévenu du cout avant validation selon le type de transport (Voiture climée ou simple, Taxi, tricycle et moto à deux roux)au choix.
+                                    Le conducteur ayant fait une inscription et souscris chez kingoo pourra
+                                    donc recevoir des notifications s'il est dans le rayon du client
+                                    pour accepter une course.
+                                    <br>
                                     Le service de transport de KINGOO sécurisée et fiable, vous permet de :
                                 <div class="row">
                                     <div class="col-md-4">
                                         <center>
                                             <img src="{{asset('site/assets/icone/money.png')}}" class="img-fluid" style="height: 80px"><br>
-                                            D'économiser
+                                            Gagner et économisé de l'argent
                                         </center>
                                     </div>
                                     <div class="col-md-4">
                                         <center>
                                             <img src="{{asset('site/assets/icone/help.png')}}" class="img-fluid" style="height: 80px"><br>
-                                            Renforcer la confiance
+                                            Créer une solidarité commune
                                         </center>
                                     </div>
                                     <div class="col-md-4">
@@ -75,8 +77,8 @@
                             </p>
                             <hr>
                             <div class="details-info">
-                                <a class="btn btn-primary" href="#"> Devenir client</a>
-                                <a class="btn btn-success" href="#"> Devenir conducteur</a>
+                                Si vous voulez devenir client ou conducteur, veillez télécharger l'application
+                                mobile et enregistrer les informations nécéssaires.
                             </div>
                         </div>
                         </div>

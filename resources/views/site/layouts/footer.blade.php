@@ -4,19 +4,19 @@
             <div class="col-lg-4 col-md-6">
                 <div class="footer-about-widget">
                     <div class="logo">
-                        <a href="#"><img src="{{asset('site/assets/images/logo1.jpg')}}" alt="" style="height: 40px;border-radius:10px"></a>
+                        <a href="#"><img src="{{asset('site/assets/images/logo1.png')}}" alt="" style="height: 40px;border-radius:10px"></a>
                     </div>
                     <p>Plateforme de Transport, partage et de discussion. <br>
                     Liens réseaux sociaux
                     </p>
                     <div class="social mt-30">
                         <ul>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="#"><i class="fab fa-tiktok"></i></a></li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a title="Facebook" target="_blank" href="https://www.facebook.com/Kingoo-108790531908407"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a title="Twitter" target="_blank" href="https://twitter.com/welldrive1"><i class="fab fa-twitter"></i></a></li>
+                            <li><a title="Instagram" target="_blank" href="https://www.instagram.com/kingooafrica"><i class="fab fa-instagram"></i></a></li>
+                            <li><a title="Tiktok" target="_blank" href="https://www.tiktok.com/@kingooafrica"><img src="{{asset('site/assets/images/tiktok.png')}}" alt="" style="height: 20px;border-radius:10px"></a></li>
+                            <li><a title="YouTube" target="_blank" href="https://www.youtube.com/channel/UCR8Szdpj6Bc61jzg6K5xRcQ"><i class="fab fa-youtube"></i></a></li>
+                            <li><a title="Linkdine" href="#"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -61,10 +61,8 @@
             <div class="col-lg-12">
                 <div class="footer-copyright d-flex align-items-center justify-content-between pt-35">
                     <div class="apps-download-btn">
-                        <ul>
-                            <li><a href="#"><i class="fab fa-apple"></i> Télécharger Version Iphone</a></li>
-                            <li><a class="item-2" href="#"><i class="fab fa-google-play"></i> Télécharger Version Android</a></li>
-                        </ul>
+                        <a href="#"><img src="site/assets/images/playstore.png" alt="" style="height: 40px"></a>
+                        <a href="#"><img src="site/assets/images/appstore.png" alt="" style="height: 40px"></a>
                     </div>
                     <div class="copyright-text">
                         <p>Copyright © 2021 Kingoo. Tous droits reservés.</p>

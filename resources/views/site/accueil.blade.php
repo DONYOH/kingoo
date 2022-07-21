@@ -11,11 +11,9 @@
                     <div class="appie-hero-content" style="margin-top: -10%">
                         <span style="font-size: 20px">Bienvenu sur</span>
                         <h1 class="appie-title">KINGOO</h1>
-                        <p>La plateforme qui vous permet de voyager, partager et discuter.</p>
-                        <ul>
-                            <li><a class="animated_btn animated_btn-ios" href="#"><i class="fab fa-apple"></i> Download for iOS</a></li>
-                            <li><a class="item-2 animated_btn2" href="#"><i class="fab fa-google-play"></i> Download for Android</a></li>
-                        </ul>
+                        <p>La plateforme qui vous permet de voyager, partager et discuter.</p><br>
+                        <a href="#"><img src="site/assets/images/playstore.png" alt="" style="height: 50px"></a>
+                        <a href="#"><img src="site/assets/images/appstore.png" alt="" style="height: 50px"></a>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -68,7 +66,7 @@
                             <span>1</span>
                         </div>
                         <h4 class="appie-title">Transport</h4>
-                        <p>Commander votre parcours selon le type de transport.
+                        <p>Commander une course ou transporter des clients.
                           <a class="btn btn-outline-primary btn-sm" href="{{route('Transports')}}" target="_blank">En savoir +</a>
                         </p>
                     </div>
@@ -114,19 +112,19 @@
 
     </section>
     <br>
-    <section class="appie-pricing-2-area pb-100">
+    <section class="appie-pricing-2-area pb-100" id="transporteur">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="appie-section-title text-center">
-                        <h3 class="appie-title">Voulez-vous devenir </h3>
+                        <h3 class="appie-title">Rejoingnez-nous</h3>
                         <div class="appie-pricing-tab-btn">
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Conducteur ?</a>
+                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Superdriver ?</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Client ?</a>
+                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Passager ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -153,25 +151,25 @@
                                     <div class="pricing-one__single pricing-one__single_2 item-2 wow animated fadeInRight">
                                         <div class="pricig-heading">
                                             <h6>Pour être un conducteur</h6>
-                                            <p>Vous avez une moto, une trycicle ou une voiture en bonne état capable de repondre
-                                                a tout les services de courses à la demande par nos clients.
+                                            <p>Vous avez une moto, une tricycle ou une voiture en bonne état capable
+                                                de mener dans un confort duc lient, veillez suivre ces recommandations ci-dessous.
                                             </p>
                                         </div>
                                         <div class="pricig-body">
                                             <h6>Comment postuler pour conduire avec Kingoo ?  </h6><br>
                                             <ul>
                                                 <li><i class="fal fa-check"></i> Télécharger l'application sur playstore/AppStore.</li>
-                                                <li><i class="fal fa-check"></i> Faite votre pré-inscription sur l'application ou en cliquant ici</li>
-                                                <li><i class="fal fa-check"></i> Attendez un rappel pour le contrôle et l'activation de votre compte</li>
-                                                <li><i class="fal fa-check"></i> Lisez votre contrat que vous allez signer a volonté</li>
+                                                <li><i class="fal fa-check"></i> Faite votre pré-inscription sur l'application ou <a href="#" onclick="alert('Bientot disponible')" >cliquez ici.</a></li>
+                                                <li><i class="fal fa-check"></i> Un contrôle sera organisé pour l'activation de votre compte</li>
+                                                <li><i class="fal fa-check"></i> Signez votre contrat de partenariat avec kingoo</li>
                                             </ul>
                                         </div>
                                         <hr>
                                         <div class="pricig-body">
                                             <h6>Avantage de conduire avec Kingoo ?  </h6><br>
                                             <ul>
-                                                <li><i class="fal fa-check"></i> Rentabiliser facilement avec vos clients.</li>
-                                                <li><i class="fal fa-check"></i> Fidélisez avec Kingoo</li>
+                                                <li><i class="fal fa-check"></i> Rentabiliser facilement avec vos clients</li>
+                                                <li><i class="fal fa-check"></i> Fidélisez avec Kingoo sur des projets à venir</li>
                                                 <li><i class="fal fa-check"></i> Les paiements sont négociables avec votre propre client</li>
                                                 <li><i class="fal fa-check"></i> Obtenez des bonus sur des courses</li>
                                             </ul>
@@ -214,10 +212,15 @@
                     </div>
                 </div>
             </div>
+            <br> <br>
+            <center > <h3>Moyens de paiement.</h3><br> <br>
+                <img src="{{asset('site/assets/images/paiement/tmoney.png')}}" class="img-fluid" style="height: 70px">
+                <img src="{{asset('site/assets/images/paiement/flooz.jpg')}}" class="img-fluid" style="height: 70px">
+            </center >
         </div>
     </section>
       <hr>
-    <section class="appie-download-3-area pt-90 pb-90" id="download">
+    <section class="appie-download-3-area pt-90 pb-90" id="download" style="margin-top: -5%">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -231,8 +234,8 @@
                 <div class="col-lg-6">
                     <div class="appie-download-3-box appie-download-5-box mt-30 mr-20 wow animated fadeInLeft" data-wow-duration="2000ms" data-wow-delay="200ms">
                         <div class="content">
-                            <h4 class="title">Android</h4>
-                            <a class="main-btn" href="#"><i class="fab fa-google-play"></i>Télécharger pour android</a>
+                            <!--<h4 class="title">Android</h4>-->
+                            <a href="#"><img src="site/assets/images/playstore.png" alt="" style="height: 50px"></a>
                         </div>
                         <div class="thumb text-center">
                             <img src="site/assets/images/download-thumb-1.png" alt="">
@@ -242,8 +245,8 @@
                 <div class="col-lg-6">
                     <div class="appie-download-3-box appie-download-5-box mt-30 ml-20 wow animated fadeInRight" data-wow-duration="2000ms" data-wow-delay="400ms">
                         <div class="content">
-                            <h4 class="title">iOS & iPadOS</h4>
-                            <a class="main-btn main-btn-2" href="#"><i class="fab fa-apple"></i>Télécharger pour iOS</a>
+                            <!--<h4 class="title">iOS & iPadOS</h4>-->
+                            <a href="#"><img src="site/assets/images/appstore.png" alt="" style="height: 50px"></a>
                         </div>
                         <div class="thumb text-right">
                             <img src="site/assets/images/download-thumb-2.png" alt="">
@@ -309,26 +312,30 @@
         </div>
     </section>
 
-    <section class="appie-project-area pb-100" style="margin-top: -8%">
-        <div class="container">
+    <section class="appie-project-area pb-100" style="margin-top: -8%;">
+        <div class="container" style="background-color: #ffc10a">
             <div class="row">
-                <div class="appie-signup-box">
+                <div class="appie-signup-box" >
                     <h3 class="title">Newsletters.</h3>
-                    <form action="#">
+                    <form action="#" >
                         <div class="input-box">
-                            <input type="text" placeholder="Nom complet...">
+                            <input type="text" placeholder="Nom complet..." required>
                         </div>
                         <div class="input-box">
-                            <input type="email" placeholder="E-mail">
+                            <input type="email" placeholder="E-mail" required>
                         </div>
                         <div class="input-box">
-                            <button type="submit">S'abonnez</button>
+                            <input type="email" placeholder="Contact téléphonique" required>
                         </div>
                         <div class="appie_checkbox_common checkbox_style2">
                             <div>
-                                <input type="checkbox" name="checkbox2" id="checkbox4">
+                                <input type="checkbox" name="checkbox2" id="checkbox4" required>
                                 <label for="checkbox4"><span></span>J'accèpte <a href="#"> les termes et conditions.</a></label>
                             </div>
+                        </div>
+                        <div class="input-box" style="margin-left: -25%">
+                            <br><br>
+                            <button type="submit">S'abonnez</button>
                         </div>
                     </form>
                     <div class="thumb">

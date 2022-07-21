@@ -1,5 +1,5 @@
 <!--====== Favicon Icon ======-->
-<link rel="shortcut icon" href="{{asset('site/assets/images/logo1.jpg')}}" type="image/png">
+<link rel="shortcut icon" href="{{asset('site/assets/images/logo1.png')}}" type="image/png">
 
 <!--====== Bootstrap css ======-->
 <link rel="stylesheet" href="{{asset('site/assets/css/bootstrap.min.css')}}">

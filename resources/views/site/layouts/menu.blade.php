@@ -1,8 +1,8 @@
-<div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2">
+<div class="col-lg-6 col-md-1 col-sm-1 order-3 order-sm-2" >
     <div class="appie-header-main-menu">
         <ul>
             <li>
-                <a href="{{route('accueil')}}">Accueil </a>
+                <a href="{{route('accueil')}}" >Accueil </a>
             </li>
 
             <li>
@@ -15,13 +15,8 @@
             </li>
 
             <li>
-                <a href="#">Télécharger <i class="fal fa-angle-down"></i></a>
-                <ul class="sub-menu">
-                    <li><a href="#">Android</a></li>
-                    <li><a href="#">Ios</a></li>
-                </ul>
+                <a href="#">Comment sa marche ? </a>
             </li>
-           
             <li>
                 <a href="{{route('contact')}}">Contacts </a>
             </li>
