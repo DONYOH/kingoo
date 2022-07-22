@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
-    <title>Kingoo - @yield('title')</title>
+    <title>- @yield('title')</title>
 
     @include('site.layouts.link')
 

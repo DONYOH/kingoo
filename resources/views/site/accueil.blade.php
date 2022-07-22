@@ -96,13 +96,49 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
+                    <div class="appie-single-service text-center mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                        <div class="icon">
+                            <img src="{{asset('site/assets/images/icon/aide.png')}}" alt="">
+                            <span>1</span>
+                        </div>
+                        <h4 class="appie-title">Solidarus</h4>
+                        <p>Aide participative aux démunies et aux projets sociaux.
+                            <a class="btn btn-outline-primary btn-sm" href="#" target="_blank">En savoir +</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="appie-single-service text-center mt-30 item-3 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="600ms">
+                        <div class="icon">
+                            <img src="{{asset('site/assets/images/icon/eglise.png')}}" alt="">
+                            <span>5</span>
+                        </div>
+                        <h4 class="appie-title">Cultes, Concerts et prières</h4>
+                        <p>Toutes les programmes réligieuses.
+                            <a class="btn btn-outline-primary btn-sm" href="{{route('KifeKoi')}}">En savoir +</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="appie-single-service text-center mt-30 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="200ms">
+                        <div class="icon">
+                            <img src="{{asset('site/assets/images/icon/radio.png')}}" alt="">
+                            <span>6</span>
+                        </div>
+                        <h4 class="appie-title">Radio</h4>
+                        <p>Emissions instructives, musiques et débats.
+                            <a class="btn btn-outline-primary btn-sm" href="{{route('Transports')}}" target="_blank">En savoir +</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
                     <div class="appie-single-service text-center mt-30 item-4 wow animated fadeInUp" data-wow-duration="2000ms" data-wow-delay="800ms">
                         <div class="icon">
                             <img src="site/assets/images/icon/4.png" alt="">
-                            <span>4</span>
+                            <span>7</span>
                         </div>
                         <h4 class="appie-title">Autres</h4>
-                        <p>D'autres fonctionnalités seront disponibles bientôt.<br>
+                        <p>D'autres services seront disponibles bientôt.<br>
                             <a class="btn btn-outline-primary btn-sm" href="#">En savoir +</a>
                         </p>
                     </div>
@@ -121,10 +157,10 @@
                         <div class="appie-pricing-tab-btn">
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Superdriver ?</a>
+                                    <a style="background-color: #ffc107" class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Superdriver ?</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Passager ?</a>
+                                    <a style="background-color: #ffffff;color:black" class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Passager ?</a>
                                 </li>
                             </ul>
                         </div>
@@ -213,9 +249,8 @@
                 </div>
             </div>
             <br> <br>
-            <center > <h3>Moyens de paiement.</h3><br> <br>
-                <img src="{{asset('site/assets/images/paiement/tmoney.png')}}" class="img-fluid" style="height: 70px">
-                <img src="{{asset('site/assets/images/paiement/flooz.jpg')}}" class="img-fluid" style="height: 70px">
+            <center >
+                <img src="{{asset('site/assets/images/paiement/paiment.PNG')}}" class="img-fluid" style="height: 230px">
             </center >
         </div>
     </section>
@@ -313,7 +348,7 @@
     </section>
 
     <section class="appie-project-area pb-100" style="margin-top: -8%;">
-        <div class="container" style="background-color: #ffc10a">
+        <div class="container">
             <div class="row">
                 <div class="appie-signup-box" >
                     <h3 class="title">Newsletters.</h3>
@@ -330,7 +365,7 @@
                         <div class="appie_checkbox_common checkbox_style2">
                             <div>
                                 <input type="checkbox" name="checkbox2" id="checkbox4" required>
-                                <label for="checkbox4"><span></span>J'accèpte <a href="#"> les termes et conditions.</a></label>
+                                <label for="checkbox4"><span></span>J'accèpte <a href="#" style="color:black"> les termes et conditions.</a></label>
                             </div>
                         </div>
                         <div class="input-box" style="margin-left: -25%">

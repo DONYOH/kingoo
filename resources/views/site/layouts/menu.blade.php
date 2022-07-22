@@ -11,6 +11,9 @@
                     <li><a href="{{route('Transports')}}">Transports</a></li>
                     <li><a href="{{route('Doveenam')}}">Doveenam</a></li>
                     <li><a href="{{route('KifeKoi')}}">KifeKoi</a></li>
+                    <li><a href="#">Solidarus</a></li>
+                    <li><a href="#">Programmes réligieuses</a></li>
+                    <li><a href="#">Radio</a></li>
                 </ul>
             </li>
 
